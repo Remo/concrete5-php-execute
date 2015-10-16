@@ -12,7 +12,7 @@ class Controller extends BlockController
     protected $btCacheBlockRecord = true;
     protected $btCacheBlockOutput = false;
     protected $btCacheBlockOutputOnPost = false;
-    protected $btCacheBlockOutputForRegisteredUsers = alse;
+    protected $btCacheBlockOutputForRegisteredUsers = false;
     protected $btIgnorePageThemeGridFrameworkContainer = true;
 
     public $content = "";
