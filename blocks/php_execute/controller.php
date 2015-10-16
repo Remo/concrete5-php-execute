@@ -10,9 +10,9 @@ class Controller extends BlockController
     protected $btWrapperClass = 'ccm-ui';
     protected $btInterfaceHeight = "500";
     protected $btCacheBlockRecord = true;
-    protected $btCacheBlockOutput = true;
-    protected $btCacheBlockOutputOnPost = true;
-    protected $btCacheBlockOutputForRegisteredUsers = true;
+    protected $btCacheBlockOutput = false;
+    protected $btCacheBlockOutputOnPost = false;
+    protected $btCacheBlockOutputForRegisteredUsers = alse;
     protected $btIgnorePageThemeGridFrameworkContainer = true;
 
     public $content = "";
